@@ -1,0 +1,36 @@
+\begin{longtable}{|p{3.5cm}|p{4.5cm}|p{4.5cm}|}
+\caption{\textit{Feasibility Study}} \\
+\hline
+\textbf{Kriteria Kelayakan} & \textbf{Web Responsif (\textit{PWA})} & \textbf{Mobile Native (Cross-Platform)} \\
+\hline
+\endfirsthead
+
+\hline
+\textbf{Kriteria Kelayakan} & \textbf{Web Responsif (\textit{PWA})} & \textbf{Mobile Native (Cross-Platform)} \\
+\hline
+\endhead
+
+\hline
+\endfoot
+
+\textbf{Kelayakan Teknis} 
+& Rendah: Kontrol terbatas atas \textit{GPS background tracking} dan notifikasi \textit{push}, kurang andal untuk tracking kontinyu selama berjam-jam. \textit{Service worker} memiliki keterbatasan pada iOS Safari yang dapat menyebabkan tracking terputus saat aplikasi tidak aktif.
+& Tinggi: Kontrol penuh atas fitur \textit{native OS}, mendukung \textit{background service} yang stabil untuk tracking \textit{real-time}. Akses langsung ke GPS API dan dapat menjalankan \textit{foreground service} untuk tracking kontinyu. \\
+\hline
+
+\textbf{Kelayakan Operasional} 
+& Sedang: Mudah diakses melalui tautan tanpa instalasi, namun pengalaman pengguna mungkin kurang mulus dibandingkan aplikasi native. Variasi pengalaman antar browser dapat menimbulkan inkonsistensi.
+& Tinggi: Menyediakan pengalaman pengguna yang konsisten sesuai \textit{platform guidelines}, performa optimal, dan meningkatkan adopsi oleh panitia maupun tim support karena familiarity dengan pola interaksi native. \\
+\hline
+
+\textbf{Kelayakan Jadwal} 
+& Tinggi: Waktu pengembangan sekitar 3--4 bulan dengan satu basis kode dan tanpa proses \textit{App Store review}. \textit{Deployment} dapat dilakukan secara instan setiap kali ada pembaruan.
+& Sedang: Waktu pengembangan 4--6 bulan karena proses \textit{testing} lebih kompleks serta \textit{deployment} harus melalui proses review App Store dan Play Store yang memerlukan waktu 1--7 hari. \\
+\hline
+
+\textbf{Kelayakan Hukum/Keamanan} 
+& Sedang: Keamanan data bergantung pada implementasi token dan \textit{browser sandbox}. Cukup rentan terhadap perubahan kebijakan browser yang dapat mempengaruhi fungsionalitas aplikasi.
+& Tinggi: Lebih mudah mengontrol dan mengamankan data melalui fitur keamanan native OS seperti \textit{hardware-backed keystore}, autentikasi biometrik, dan \textit{app sandboxing} yang lebih ketat. \\
+\hline
+
+\end{longtable}

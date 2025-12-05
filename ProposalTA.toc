@@ -52,23 +52,51 @@
 \babel@toc {indonesian}{}\relax 
 \contentsline {chapter}{\numberline {III}ANALISIS MASALAH}{10}{chapter.3}%
 \contentsline {section}{\numberline {III.1}Analisis Kondisi Saat Ini}{10}{section.3.1}%
-\contentsline {section}{\numberline {III.2}Analisis Kebutuhan}{10}{section.3.2}%
-\contentsline {subsection}{\numberline {III.2.1}Identifikasi Masalah Pengguna}{10}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {III.2.2}Kebutuhan Fungsional}{10}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {III.2.3}Kebutuhan Nonfungsional}{11}{subsection.3.2.3}%
-\contentsline {section}{\numberline {III.3}Analisis Pemilihan Solusi}{11}{section.3.3}%
-\contentsline {subsection}{\numberline {III.3.1}Alternatif Solusi}{11}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {III.3.2}Analisis Penentuan Solusi}{11}{subsection.3.3.2}%
-\contentsline {chapter}{\numberline {IV}DESAIN KONSEP SOLUSI}{13}{chapter.4}%
-\contentsline {chapter}{\numberline {V}RENCANA SELANJUTNYA}{14}{chapter.5}%
-\contentsline {section}{\numberline {V.1}Rencana Implementasi}{14}{section.5.1}%
-\contentsline {subsection}{\numberline {V.1.1}Persiapan Lingkungan Pengembangan}{14}{subsection.5.1.1}%
-\contentsline {subsubsection}{\numberline {V.1.1.1}Alat dan Bahan yang Diperlukan}{14}{subsubsection.5.1.1.1}%
-\contentsline {subsubsection}{\numberline {V.1.1.2}Konfigurasi Lingkungan}{15}{subsubsection.5.1.1.2}%
-\contentsline {section}{\numberline {V.2}Desain Pengujian dan Evaluasi}{15}{section.5.2}%
-\contentsline {subsection}{\numberline {V.2.1}Metode Pengujian}{15}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {V.2.2}Kriteria Evaluasi}{15}{subsection.5.2.2}%
-\contentsline {section}{\numberline {V.3}Analisis Risiko dan Mitigasi}{16}{section.5.3}%
+\contentsline {section}{\numberline {III.2}Analisis Kebutuhan}{12}{section.3.2}%
+\contentsline {subsection}{\numberline {III.2.1}Identifikasi Masalah Pengguna}{12}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {III.2.2}Kebutuhan Fungsional}{13}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {III.2.3}Kebutuhan Nonfungsional}{14}{subsection.3.2.3}%
+\contentsline {section}{\numberline {III.3}Analisis Pemilihan Solusi}{15}{section.3.3}%
+\contentsline {subsection}{\numberline {III.3.1}Alternatif Solusi}{15}{subsection.3.3.1}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsection}{\numberline {III.3.2}Analisis Penentuan Solusi}{17}{subsection.3.3.2}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {chapter}{\numberline {IV}DESAIN KONSEP SOLUSI}{19}{chapter.4}%
+\contentsline {section}{\numberline {IV.1}Rancangan Umum Sistem}{19}{section.4.1}%
+\contentsline {section}{\numberline {IV.2}Pemodelan Fungsional Sistem}{20}{section.4.2}%
+\contentsline {chapter}{\numberline {V}RENCANA SELANJUTNYA}{21}{chapter.5}%
+\contentsline {section}{\numberline {V.1}Rencana Implementasi}{21}{section.5.1}%
+\contentsline {subsection}{\numberline {V.1.1}Persiapan Lingkungan Pengembangan}{21}{subsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {V.1.1.1}Alat dan Bahan yang Diperlukan}{21}{subsubsection.5.1.1.1}%
+\contentsline {subsubsection}{\numberline {V.1.1.2}Konfigurasi Lingkungan}{22}{subsubsection.5.1.1.2}%
+\contentsline {section}{\numberline {V.2}Desain Pengujian dan Evaluasi}{22}{section.5.2}%
+\contentsline {subsection}{\numberline {V.2.1}Metode Pengujian}{22}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {V.2.2}Kriteria Evaluasi}{22}{subsection.5.2.2}%
+\contentsline {section}{\numberline {V.3}Analisis Risiko dan Mitigasi}{23}{section.5.3}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {indonesian}{}\relax 
 \babel@toc {english}{}\relax 

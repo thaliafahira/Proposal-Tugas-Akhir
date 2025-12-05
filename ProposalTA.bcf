@@ -4997,6 +4997,14 @@
     <bcf:citekey order="16" intorder="1">osmani2023learning</bcf:citekey>
     <bcf:citekey order="17" intorder="1">iso20199241</bcf:citekey>
     <bcf:citekey order="18" intorder="1">garrett2022elements</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">biorn2017progressive</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">malavolta2017assessing</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">tandel2018impact</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">biorn2017progressive</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">heitkotter2012evaluating</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">majchrzak2017comprehensive</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">heitkotter2012evaluating</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">pressman2014</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="cms">

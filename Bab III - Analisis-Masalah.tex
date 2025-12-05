@@ -6,19 +6,75 @@
 % ============================================================================================
 \chapter{ANALISIS MASALAH}
 \label{chap:analisis-masalah}
+Analisis masalah dilakukan sebagai proses menemukan, memahami, dan merumuskan suatu permasalahan yang akan diselesaikan. Proses ini mencakup analisis kondisi yang ada saat ini, analisis kebutuhan dari pengguna dan sistem, serta pemilihan dari alternatif solusi yang telah dirumuskan. Dengan analisis ini, diharapkan dapat memberikan gambaran yang lebih jelas mengenai akar penyebab persoalan serta aspek-aspek penting yang perlu diperbaiki.
+
 \section{Analisis Kondisi Saat Ini}
+Untuk dapat merancang antarmuka yang relevan dan efektif, perlu dilakukan analisis terhadap kondisi saat ini. Analisis ini penting untuk memahami bagaimana proses pelacakan dan penyajian informasi dilakukan tanpa adanya platform yang dirancang khusus bagi kegiatan ITB Ultra-Marathon. Dengan mengetahui keterbatasan pada kondisi eksisting, pengembangan front end dapat diarahkan untuk menjawab kebutuhan yang belum terpenuhi secara optimal.
+
+\input{table/asIs.tex}
+
+Berdasarkan kondisi tersebut, dapat disimpulkan bahwa belum adanya sistem dan antarmuka khusus untuk mendukung kegiatan ITB Ultra-Marathon menyebabkan berbagai proses operasional, \textit{monitoring}, hingga penyajian informasi dilakukan secara terpisah dan manual. Hal ini menciptakan ketidakefisienan dalam koordinasi, keterbatasan akses informasi, serta pengalaman pengguna yang kurang optimal bagi panitia, peserta, maupun tim \textit{support}. Oleh karena itu, dibutuhkan pengembangan \textit{front end} yang mampu menyediakan tampilan informasi yang terintegrasi, \textit{real-time}, mudah diakses, serta \textit{responsive} terhadap kebutuhan seluruh pemangku kepentingan dalam penyelenggaraan ITB Ultra-Marathon.
 
 \section{Analisis Kebutuhan}
-\lipsum[4]
+Setelah memahami kondisi saat ini dan mengidentifikasi berbagai keterbatasan pada aspek antarmuka pengguna, langkah selanjutnya adalah melakukan analisis kebutuhan. Analisis ini bertujuan untuk mengidentifikasi masalah pengguna, menentukan kebutuhan fungsional, dan menentukan kebutuhan non-fungsional yang diperlukan agar sistem dapat mendukung proses pelacakan peserta secara efektif. Dengan menguraikan kebutuhan pengguna maupun kebutuhan sistem, perancangan \textit{front end} dapat disusun secara lebih terarah dan sesuai dengan tujuan pengembangan aplikasi \textit{tracker} ITB Ultra-Marathon.
+
 \subsection{Identifikasi Masalah Pengguna}
-\lipsum[5]
+Pada bagian ini, dilakukan proses identifikasi masalah yang dialami oleh pengguna sebagai dasar untuk menentukan solusi yang tepat dalam perancangan aplikasi. Identifikasi dilakukan dengan mengacu pada hasil observasi dan wawancara, sehingga kebutuhan dan kesulitan pengguna dapat dipetakan secara lebih akurat. Temuan ini kemudian menjadi landasan dalam merumuskan kebutuhan sistem pada tahap pengembangan berikutnya.
+
+\begin{enumerate}
+    \item Pelacakan posisi pelari masih manual dan tidak \textit{real-time}.
+
+    Panitia dan tim support harus meminta pelari melakukan \textit{share location} melalui aplikasi perpesanan untuk mengetahui posisi terkini. Ketergantungan pada metode manual ini menyebabkan alur pemantauan menjadi lambat, tidak efisien, dan tidak terpusat pada satu tampilan antarmuka.
+
+    \item Mobil penjemput dan \textit{drop bag} sulit tiba tepat waktu karena ETA tidak akurat.
+
+    Tanpa tampilan antarmuka yang menyediakan data posisi dan kecepatan pelari secara kontinu, estimasi waktu kedatangan (ETA) tidak dapat dihitung secara tepat. Hal ini berdampak pada keterlambatan penjemputan dan hambatan logistik lainnya.
+
+    \item Metode ETA yang tersedia (misalnya Google Maps) tidak sesuai untuk konteks pelari.
+
+    \textit{Front end} yang digunakan saat ini tidak menyediakan kalkulasi ETA berbasis \textit{pace} pelari, kondisi rute, elevasi, atau tingkat kelelahan. Karena itu, estimasi yang dihasilkan aplikasi umum seperti Google Maps sering meleset dan tidak dapat menjadi acuan panitia maupun tim support.
+
+    \item Peta digital lomba masih dibuat secara manual dan tidak terintegrasi.
+
+    Rute lomba biasanya dibuat secara manual menggunakan Google Maps, kemudian dibagikan kepada peserta atau tim support. Tidak adanya tampilan peta yang interaktif, responsif, dan terhubung dengan data pelacakan membuat navigasi sulit dilakukan secara efektif melalui satu antarmuka terpadu.
+
+    \item Tidak ada sistem yang mendukung kebutuhan operasional lomba secara menyeluruh.
+
+    Berbagai aktivitas seperti manajemen tim, deteksi pergantian pelari (relay), pencatatan kehadiran, pengelolaan penalti, waktu penjemputan, dan \textit{drop bag} masih dilakukan secara manual. Ketiadaan antarmuka terpusat menjadikan proses ini tidak efisien dan rentan terhadap kesalahan.
+\end{enumerate}
+
+
 \subsection{Kebutuhan Fungsional}
-\lipsum[6]
+Pada bagian ini, disusun kebutuhan fungsional yang berfokus pada perilaku, tampilan, serta interaksi yang harus disediakan oleh \textit{front end} aplikasi tracker ITB Ultra-Marathon. Kebutuhan ini menggambarkan fitur-fitur utama yang perlu hadir pada antarmuka guna mendukung proses pelacakan, penyajian informasi, serta meningkatkan pengalaman pengguna secara keseluruhan.
+\input{table/fr.tex}
+
 \subsection{Kebutuhan Nonfungsional}
-\lipsum[7]
+Pada bagian ini dirumuskan kebutuhan non-fungsional yang berfokus pada kualitas tampilan, performa, aksesibilitas, keamanan antarmuka, serta aspek \textit{usability} yang wajib dipenuhi oleh \textit{front end}. Kebutuhan ini memastikan sistem mudah digunakan, cepat, aman, dan mampu menghadirkan pengalaman pengguna yang konsisten selama acara berlangsung.
+\input{table/nf.tex}
 
 \section{Analisis Pemilihan Solusi}
+Setelah melakukan identifikasi kebutuhan dan memahami masalah pengguna, langkah berikutnya adalah menentukan solusi terbaik untuk membangun \textit{front end} aplikasi tracker ITB Ultra-Marathon. Proses ini dilakukan dengan menganalisis beberapa alternatif solusi, kemudian memilih solusi yang paling sesuai berdasarkan kriteria kebutuhan fungsional, non-fungsional, serta keterbatasan teknis dan operasional.
+
+
 \subsection{Alternatif Solusi}
-\lipsum[8]
+Pada tahap ini ditetapkan dua alternatif solusi utama yang dapat diterapkan untuk mengembangkan sistem antarmuka pelacakan ITB Ultra-Marathon. Kedua alternatif ini dipilih berdasarkan tren pengembangan aplikasi mobile modern dan kecocokannya dengan kebutuhan sistem yang telah diidentifikasi sebelumnya.
+\begin{enumerate}[label=\alph*.]
+    \item Pengembangan Web Responsif Berbasis \textit{Progressive Web Application} (PWA)
+
+    \textit{Progressive Web Application} (PWA) adalah aplikasi web yang dibangun menggunakan teknologi web standar seperti HTML, CSS, dan JavaScript, namun menawarkan pengalaman yang mendekati aplikasi \textit{native} \cite{biorn2017progressive}. PWA memanfaatkan \textit{service workers} untuk mendukung \textit{offline functionality}, \textit{caching}, dan \textit{push notification}, sehingga dapat berfungsi meskipun koneksi internet tidak stabil. Aplikasi ini dapat diakses langsung melalui browser tanpa instalasi dari \textit{app store}, dan juga dapat dipasang ke \textit{home screen} perangkat sehingga memberikan pengalaman seperti aplikasi mandiri tanpa tampilan browser \cite{malavolta2017assessing}.
+
+    Keunggulan utama PWA mencakup tidak memerlukan proses distribusi melalui \textit{app store} sehingga pembaruan dapat dilakukan secara instan, ukuran aplikasi yang lebih kecil dibandingkan aplikasi \textit{native}, kompatibilitas lintas platform dengan satu basis kode, serta kemudahan akses melalui URL yang dapat langsung dibagikan kepada pengguna \cite{tandel2018impact}. Namun, PWA memiliki keterbatasan terhadap akses fitur \textit{native} perangkat, terutama pada GPS \textit{background tracking} dan \textit{push notification} yang kurang stabil pada beberapa platform, khususnya iOS \cite{biorn2017progressive}.
+
+    \item Pengembangan Aplikasi Mobile \textit{Native} dengan \textit{Cross-Platform Framework}
+
+    Aplikasi mobile \textit{native} dikembangkan secara khusus untuk platform tertentu menggunakan \textit{Software Development Kit} (SDK) dan bahasa pemrograman bawaan platform. Dalam praktik modern, pendekatan \textit{cross-platform} menggunakan \textit{framework} seperti React Native atau Flutter memungkinkan pengembangan aplikasi \textit{native} untuk iOS dan Android menggunakan satu basis kode, sehingga meningkatkan efisiensi tanpa mengorbankan performa maupun akses ke fitur \textit{native} \cite{heitkotter2012evaluating}.
+
+    Keunggulan aplikasi \textit{native} mencakup performa tinggi dengan akses penuh ke \textit{hardware} perangkat, stabilitas GPS \textit{background service}, keandalan \textit{push notification}, serta \textit{user experience} yang lebih konsisten mengikuti pedoman desain masing-masing platform \cite{majchrzak2017comprehensive}. Selain itu, aplikasi \textit{native} memiliki kemampuan \textit{offline} yang lebih baik dan dapat memanfaatkan fitur keamanan tingkat \textit{hardware} seperti \textit{keychain} (iOS) dan \textit{keystore} (Android). Kelemahannya adalah waktu pengembangan yang lebih panjang, proses \textit{testing} yang lebih kompleks, serta kebutuhan \textit{deployment} melalui \textit{app store} yang memerlukan proses persetujuan \cite{heitkotter2012evaluating}.
+\end{enumerate}
+
 \subsection{Analisis Penentuan Solusi}
-\lipsum[9]
+Penentuan solusi dilakukan dengan membandingkan kedua alternatif melalui \textit{feasibility study}. \textit{Feasibility study} merupakan evaluasi sistematis untuk menentukan apakah solusi yang diusulkan mungkin dan layak diimplementasikan, dengan fokus pada aspek non-ekonomis yang penting bagi keberhasilan proyek \cite{pressman2014}. Analisis dilakukan berdasarkan empat kriteria kelayakan yang paling relevan dengan kebutuhan sistem yang telah diidentifikasi sebelumnya, yaitu kelayakan teknis, operasional, jadwal, serta hukum dan keamanan.
+
+\input{table/feasibilitystudy.tex}
+
+Berdasarkan evaluasi kelayakan yang telah dilakukan, Aplikasi Mobile Native menunjukkan tingkat kelayakan yang lebih tinggi pada aspek-aspek kritis yang menjadi prioritas utama dalam penyelenggaraan ITB Ultra-Marathon. Meskipun Web Responsif \textit{PWA} unggul dalam kelayakan jadwal dengan waktu pengembangan yang lebih singkat, keunggulan ini tidak sebanding dengan risiko yang ditimbulkan dari keterbatasan teknis yang dapat membahayakan keselamatan peserta.

@@ -3,7 +3,15 @@
 % ==========================================
 \chapter{DESAIN KONSEP SOLUSI}
 \label{chap:desain-konsep-solusi}
-Ilustrasikan desain konsep solusi dalam bentuk model konseptual dan penjelasan secara ringkas, 
-beserta perbedaannya dengan sistem saat ini. Ilustrasi harus dapat dibandingkan (\textit{before} and \textit{after}). 
-Karena masih berupa proposal, bab ini hanya berisi gambar desain konsep solusi tersebut dan 
-penjelasan perbandingannya dengan gambar sistem yang ada saat ini (yang tergambar di awal Bab \ref{chap:analisis-masalah}).
+Setelah melalui tahap analisis masalah dan penentuan solusi pada bab sebelumnya, langkah selanjutnya adalah merancang konsep solusi yang akan diimplementasikan. Bab ini membahas desain sistem secara menyeluruh dan pemodelan fungsional yang menggambarkan bagaimana sistem akan bekerja. Perancangan ini menjadi \textit{blueprint} yang memandu proses implementasi \textit{front end} aplikasi tracker ITB Ultra-Marathon agar sesuai dengan kebutuhan yang telah diidentifikasi dan mampu memberikan solusi optimal.
+
+\section{Rancangan Umum Sistem}
+
+Rancangan umum sistem menggambarkan alur proses bisnis aplikasi tracker ITB Ultra-Marathon melalui \textit{activity diagram} yang menjelaskan interaksi antar aktor dan sistem. \textit{Activity diagram} ini memvisualisasikan bagaimana setiap \textit{stakeholder} berinteraksi dengan aplikasi, mulai dari proses pendaftaran hingga pelaksanaan \textit{tracking} selama event berlangsung.
+
+
+Alur proses bisnis dimulai dari proses pendaftaran oleh Ketua Tim, yang kemudian ditindaklanjuti oleh Panitia dengan mengirimkan email konfirmasi berisi token pendaftaran. Selanjutnya, Ketua Tim dan Peserta membuat akun serta membentuk tim di dalam sistem, sementara Sistem secara otomatis menghasilkan token unik untuk tim tersebut. Ketua Tim kemudian mengundang Peserta untuk bergabung menggunakan token yang diberikan, hingga seluruh anggota resmi terdaftar dalam struktur tim yang valid. Setelah proses inisiasi selesai, sistem mulai menjalankan fungsi utamanya, yaitu melakukan pelacakan peserta secara \textit{real-time} selama berlangsungnya event.
+
+\section{Pemodelan Fungsional Sistem}
+
+Setelah memahami alur proses bisnis melalui \textit{activity diagram}, langkah selanjutnya adalah memodelkan fungsionalitas sistem secara lebih terstruktur menggunakan \textit{use case diagram} yang menggambarkan interaksi antara aktor dengan sistem.

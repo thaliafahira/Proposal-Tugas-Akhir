@@ -116,6 +116,51 @@
       \field{pages}{1335\bibrangedash 1346}
       \range{pages}{12}
     \endentry
+    \entry{biorn2017progressive}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5c8e112d05da505cd7165215cfa04054}{%
+           family={Bi{ø}rn-Hansen},
+           familyi={B\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3925028a8aaf685ded3c7145910ea018}{%
+           family={Majchrzak},
+           familyi={M\bibinitperiod},
+           given={Tim\bibnamedelima A},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4bdedc4a344574bd6e841adf103f322e}{%
+           family={Gr{ø}nli},
+           familyi={G\bibinitperiod},
+           given={Tor-Morten},
+           giveni={T\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {SciTePress}%
+      }
+      \strng{namehash}{04a9591061bb49f70b1681792fdeb810}
+      \strng{fullhash}{04a9591061bb49f70b1681792fdeb810}
+      \strng{fullhashraw}{04a9591061bb49f70b1681792fdeb810}
+      \strng{bibnamehash}{04a9591061bb49f70b1681792fdeb810}
+      \strng{authorbibnamehash}{04a9591061bb49f70b1681792fdeb810}
+      \strng{authornamehash}{04a9591061bb49f70b1681792fdeb810}
+      \strng{authorfullhash}{04a9591061bb49f70b1681792fdeb810}
+      \strng{authorfullhashraw}{04a9591061bb49f70b1681792fdeb810}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Web Information Systems and Technologies}
+      \field{title}{Progressive web apps: The possible web-native unifier for mobile development}
+      \field{volume}{2}
+      \field{year}{2017}
+      \field{pages}{344\bibrangedash 351}
+      \range{pages}{8}
+    \endentry
     \entry{bollini2017beautiful}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0c1005fec5b0a8049faee2825aa411f6}{%
@@ -307,6 +352,50 @@
       \verb https://itb.ac.id/berita/wondr-itb-ultra-marathon-2025-sukses-digelar-alumni-hingga-guru-sd-turut-menyumbang-untuk-dana-lestari/62873
       \endverb
     \endentry
+    \entry{heitkotter2012evaluating}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8e3160d35c59f737fa6ca3ec1524c906}{%
+           family={Heitkötter},
+           familyi={H\bibinitperiod},
+           given={Henning},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d1f87a961f467f8c0bca102a50438017}{%
+           family={Hanschke},
+           familyi={H\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3925028a8aaf685ded3c7145910ea018}{%
+           family={Majchrzak},
+           familyi={M\bibinitperiod},
+           given={Tim\bibnamedelima A},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{fb0787e53492d8efba005738b89ce61f}
+      \strng{fullhash}{fb0787e53492d8efba005738b89ce61f}
+      \strng{fullhashraw}{fb0787e53492d8efba005738b89ce61f}
+      \strng{bibnamehash}{fb0787e53492d8efba005738b89ce61f}
+      \strng{authorbibnamehash}{fb0787e53492d8efba005738b89ce61f}
+      \strng{authornamehash}{fb0787e53492d8efba005738b89ce61f}
+      \strng{authorfullhash}{fb0787e53492d8efba005738b89ce61f}
+      \strng{authorfullhashraw}{fb0787e53492d8efba005738b89ce61f}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Web Information Systems and Technologies}
+      \field{title}{Evaluating cross-platform development approaches for mobile applications}
+      \field{year}{2012}
+      \field{pages}{120\bibrangedash 138}
+      \range{pages}{19}
+    \endentry
     \entry{Hochreiter2024}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=df7486f41bef0110b4b3ff1512667b63}{%
@@ -491,6 +580,88 @@
       \field{year}{2021}
       \field{pages}{3687}
       \range{pages}{1}
+    \endentry
+    \entry{majchrzak2017comprehensive}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=277191041eba3a25d96e4803e6bd0822}{%
+           family={Majchrzak},
+           familyi={M\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4bdedc4a344574bd6e841adf103f322e}{%
+           family={Gr{ø}nli},
+           familyi={G\bibinitperiod},
+           given={Tor-Morten},
+           giveni={T\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0f60e7f7850cec28e2dc7463bc27a2a2}
+      \strng{fullhash}{0f60e7f7850cec28e2dc7463bc27a2a2}
+      \strng{fullhashraw}{0f60e7f7850cec28e2dc7463bc27a2a2}
+      \strng{bibnamehash}{0f60e7f7850cec28e2dc7463bc27a2a2}
+      \strng{authorbibnamehash}{0f60e7f7850cec28e2dc7463bc27a2a2}
+      \strng{authornamehash}{0f60e7f7850cec28e2dc7463bc27a2a2}
+      \strng{authorfullhash}{0f60e7f7850cec28e2dc7463bc27a2a2}
+      \strng{authorfullhashraw}{0f60e7f7850cec28e2dc7463bc27a2a2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{title}{Comprehensive analysis of innovative cross-platform app development frameworks}
+      \field{year}{2017}
+    \endentry
+    \entry{malavolta2017assessing}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=3ff6e286502b85077eabb7e86849d893}{%
+           family={Malavolta},
+           familyi={M\bibinitperiod},
+           given={Ivano},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70889ea21cbac3249b10fb7d722ab377}{%
+           family={Procaccianti},
+           familyi={P\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f5f2ce931d046c19305eea2a5aaeef8c}{%
+           family={Noorland},
+           familyi={N\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=204b2b2e1c1b4d212652fc2209768cd4}{%
+           family={Vukmirovic},
+           familyi={V\bibinitperiod},
+           given={Petar},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{1096fd05c40e62e2a93cb6931d5228de}
+      \strng{fullhash}{240079c369a52d805915f433dd5311bb}
+      \strng{fullhashraw}{240079c369a52d805915f433dd5311bb}
+      \strng{bibnamehash}{240079c369a52d805915f433dd5311bb}
+      \strng{authorbibnamehash}{240079c369a52d805915f433dd5311bb}
+      \strng{authornamehash}{1096fd05c40e62e2a93cb6931d5228de}
+      \strng{authorfullhash}{240079c369a52d805915f433dd5311bb}
+      \strng{authorfullhashraw}{240079c369a52d805915f433dd5311bb}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 IEEE/ACM 4th International Conference on Mobile Software Engineering and Systems (MOBILESoft)}
+      \field{title}{Assessing the impact of service workers on the energy efficiency of progressive web apps}
+      \field{year}{2017}
+      \field{pages}{35\bibrangedash 45}
+      \range{pages}{11}
     \endentry
     \entry{Okesola2020}{incollection}{}{}
       \name{author}{4}{}{%
@@ -763,6 +934,43 @@
       \field{year}{2020}
       \field{pages}{275\bibrangedash 284}
       \range{pages}{10}
+    \endentry
+    \entry{tandel2018impact}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b4ae22482105dc15a62e25537bb261eb}{%
+           family={Tandel},
+           familyi={T\bibinitperiod},
+           given={Sayali},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d2f37c1806a980f7a72bbb3e1795bb7c}{%
+           family={Jamadar},
+           familyi={J\bibinitperiod},
+           given={Abhishek},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{37aaa7cac98d071d1577290819c4d0ad}
+      \strng{fullhash}{37aaa7cac98d071d1577290819c4d0ad}
+      \strng{fullhashraw}{37aaa7cac98d071d1577290819c4d0ad}
+      \strng{bibnamehash}{37aaa7cac98d071d1577290819c4d0ad}
+      \strng{authorbibnamehash}{37aaa7cac98d071d1577290819c4d0ad}
+      \strng{authornamehash}{37aaa7cac98d071d1577290819c4d0ad}
+      \strng{authorfullhash}{37aaa7cac98d071d1577290819c4d0ad}
+      \strng{authorfullhashraw}{37aaa7cac98d071d1577290819c4d0ad}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{International Journal of Innovative Research in Science, Engineering and Technology}
+      \field{number}{9}
+      \field{title}{Impact of progressive web apps on web app development}
+      \field{volume}{7}
+      \field{year}{2018}
+      \field{pages}{9439\bibrangedash 9444}
+      \range{pages}{6}
     \endentry
   \enddatalist
 \endrefsection

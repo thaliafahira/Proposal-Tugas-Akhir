@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.10.21)  5 DEC 2025 08:02
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.10.21)  5 DEC 2025 10:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1377,30 +1377,404 @@ TimesNewRoman(0)/m/n/12 ITB Ultra-Marathon
 [9]
 Bab III.
 
+Overfull \hbox (0.62003pt too wide) in paragraph at lines 9--10
+\TU/TimesNewRoman(0)/m/n/12 Analisis masalah dilakukan sebagai proses menemukan
+, memahami, dan merumusk-
+ []
+
+(table/asIs.tex
+Overfull \hbox (7.54723pt too wide) in alignment at lines 1--8
+ [] [] [] 
+ []
+
+
+Overfull \hbox (7.54723pt too wide) in alignment at lines 8--13
+ [] [] [] 
+ []
+
+
+Overfull \hbox (7.54723pt too wide) in alignment at lines 13--16
+ [] [] [] 
+ []
+
+
+Overfull \hbox (7.54723pt too wide) in alignment at lines 16--19
+ [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+[]|\TU/TimesNewRoman(0)/m/n/12 Belum terdapat aplikasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+\TU/TimesNewRoman(0)/m/n/12 khusus untuk ITB Ultra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+\TU/TimesNewRoman(0)/m/n/12 Marathon; tracking hanya
+ []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 24--25
+[]\TU/TimesNewRoman(0)/m/n/12 Tracking tim dan pe-
+ []
+
+
+Underfull \hbox (badness 6808) in paragraph at lines 30--30
+[]|\TU/TimesNewRoman(0)/m/n/12 Tidak ada sistem navigasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+\TU/TimesNewRoman(0)/m/n/12 tim \TU/TimesNewRoman(0)/m/it/12 support \TU/TimesN
+ewRoman(0)/m/n/12 mengandalkan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+\TU/TimesNewRoman(0)/m/n/12 aplikasi eksternal seperti
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+[]\TU/TimesNewRoman(0)/m/n/12 Sulit melacak posisi
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 33--34
+[]\TU/TimesNewRoman(0)/m/n/12 Tidak mengetahui es-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+[]\TU/TimesNewRoman(0)/m/n/12 Menyulitkan koordi-
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 39--39
+\TU/TimesNewRoman(0)/m/n/12 lum terintegrasi, mulai da-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+[]\TU/TimesNewRoman(0)/m/n/12 Menyulitkan panitia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+[]\TU/TimesNewRoman(0)/m/n/12 Menurunkan efisiensi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+\TU/TimesNewRoman(0)/m/n/12 penyajian informa-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+\TU/TimesNewRoman(0)/m/n/12 si pada antarmuka
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+[]|\TU/TimesNewRoman(0)/m/n/12 Belum tersedia antarmuka
+ []
+
+
+Underfull \hbox (badness 7851) in paragraph at lines 47--47
+\TU/TimesNewRoman(0)/m/n/12 atau aplikasi khusus yang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+\TU/TimesNewRoman(0)/m/n/12 mendukung kegiatan ITB
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 49--50
+\TU/TimesNewRoman(0)/m/n/12 liki satu \TU/TimesNewRoman(0)/m/it/12 platform \TU
+/TimesNewRoman(0)/m/n/12 ter-
+ []
+
+
+Underfull \hbox (badness 3281) in paragraph at lines 49--50
+\TU/TimesNewRoman(0)/m/n/12 padu untuk informasi
+ []
+
+
+Overfull \hbox (7.54723pt too wide) in alignment at lines 19--54
+ [] [] [] 
+ []
 
 [10
 
-]) (Bab IV - Desain-Konsep-Solusi.tex
+])
 
 [11]
 
-[12]
+[12] (table/fr.tex
+Overfull \hbox (1.85675pt too wide) in alignment at lines 1--5
+ [] [] [] 
+ []
+
+
+Overfull \hbox (1.85675pt too wide) in alignment at lines 5--10
+ [] [] [] 
+ []
+
+
+Overfull \hbox (1.85675pt too wide) in alignment at lines 10--14
+ [] [] [] 
+ []
+
+
+Overfull \hbox (1.85675pt too wide) in alignment at lines 14--17
+ [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+[]|\TU/TimesNewRoman(0)/m/n/12 Tampilan Dashboard
+ []
+
+
+Underfull \hbox (badness 7777) in paragraph at lines 23--23
+[]|\TU/TimesNewRoman(0)/m/n/12 Antarmuka menampilkan rute lomba,
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 32--32
+[]|\TU/TimesNewRoman(0)/m/n/12 Menyediakan tampilan untuk membuat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+[]|\TU/TimesNewRoman(0)/m/n/12 Status Operasional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+[]|\TU/TimesNewRoman(0)/m/n/12 Mode Akses Berda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+[]|\TU/TimesNewRoman(0)/m/n/12 Tampilan Riwayat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+[]|\TU/TimesNewRoman(0)/m/n/12 Halaman Informasi
+ []
+
+
+Overfull \hbox (1.85675pt too wide) in alignment at lines 17--52
+ [] [] [] 
+ []
+
+[13]) (table/nf.tex
+Overfull \hbox (1.85675pt too wide) in alignment at lines 1--5
+ [] [] [] 
+ []
+
+
+Overfull \hbox (1.85675pt too wide) in alignment at lines 5--10
+ [] [] [] 
+ []
+
+
+Overfull \hbox (1.85675pt too wide) in alignment at lines 10--14
+ [] [] [] 
+ []
+
+
+Overfull \hbox (1.85675pt too wide) in alignment at lines 14--17
+ [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+[]|\TU/TimesNewRoman(0)/m/n/12 Responsivitas Perang-
+ []
+
+
+Overfull \hbox (1.85675pt too wide) in alignment at lines 17--34
+ [] [] [] 
+ []
+
+
+
+[14])
+
+[15]
+Overfull \hbox (2.90456pt too wide) in paragraph at lines 64--65
+[]\TU/TimesNewRoman(0)/m/it/12 Progressive Web Application \TU/TimesNewRoman(0)
+/m/n/12 (PWA) adalah aplikasi web yang dibangun meng-
+ []
+
+
+
+[16] (table/feasibilitystudy.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+[]|\TU/TimesNewRoman(0)/b/n/12 Mobile Native (Cross-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+[]|\TU/TimesNewRoman(0)/b/n/12 Mobile Native (Cross-
+ []
+
+
+Underfull \hbox (badness 4266) in paragraph at lines 17--18
+[]|\TU/TimesNewRoman(0)/m/n/12 Rendah: Kontrol terba-
+ []
+
+
+Underfull \hbox (badness 5652) in paragraph at lines 17--18
+\TU/TimesNewRoman(0)/m/it/12 sh\TU/TimesNewRoman(0)/m/n/12 , kurang andal untuk
+
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 17--18
+\TU/TimesNewRoman(0)/m/n/12 tracking kontinyu selama
+ []
+
+
+Underfull \hbox (badness 3503) in paragraph at lines 18--19
+\TU/TimesNewRoman(0)/m/n/12 fitur \TU/TimesNewRoman(0)/m/it/12 native OS\TU/Tim
+esNewRoman(0)/m/n/12 , mendu-
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 18--19
+\TU/TimesNewRoman(0)/m/n/12 kung \TU/TimesNewRoman(0)/m/it/12 background servic
+e
+ []
+
+
+Underfull \hbox (badness 3989) in paragraph at lines 18--19
+\TU/TimesNewRoman(0)/m/it/12 real-time\TU/TimesNewRoman(0)/m/n/12 . Akses lang-
+
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 18--19
+\TU/TimesNewRoman(0)/m/n/12 pat menjalankan \TU/TimesNewRoman(0)/m/it/12 foregr
+o-
+ []
+
+
+Underfull \hbox (badness 2856) in paragraph at lines 21--22
+[]|\TU/TimesNewRoman(0)/b/n/12 Kelayakan Opera-
+ []
+
+
+Underfull \hbox (badness 2435) in paragraph at lines 22--23
+[]|\TU/TimesNewRoman(0)/m/n/12 Sedang: Mudah diakses
+ []
+
+
+Underfull \hbox (badness 3281) in paragraph at lines 22--23
+\TU/TimesNewRoman(0)/m/n/12 melalui tautan tanpa in-
+ []
+
+
+Underfull \hbox (badness 2401) in paragraph at lines 23--24
+\TU/TimesNewRoman(0)/m/it/12 guidelines\TU/TimesNewRoman(0)/m/n/12 , performa o
+p-
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 23--24
+\TU/TimesNewRoman(0)/m/n/12 timal, dan meningkatkan
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 23--24
+\TU/TimesNewRoman(0)/m/n/12 adopsi oleh panitia mau-
+ []
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 27--28
+[]|\TU/TimesNewRoman(0)/m/n/12 Tinggi: Waktu pengem-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+[]|\TU/TimesNewRoman(0)/b/n/12 Kelayakan Huku-
+ []
+
+
+Underfull \hbox (badness 4279) in paragraph at lines 32--33
+[]|\TU/TimesNewRoman(0)/m/n/12 Sedang: Keamanan da-
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 32--33
+\TU/TimesNewRoman(0)/m/it/12 sandbox\TU/TimesNewRoman(0)/m/n/12 . Cukup rentan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+[]|\TU/TimesNewRoman(0)/m/n/12 Tinggi: Lebih mudah
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\TU/TimesNewRoman(0)/m/n/12 mengontrol dan meng-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\TU/TimesNewRoman(0)/m/n/12 amankan data melalui
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\TU/TimesNewRoman(0)/m/n/12 seperti \TU/TimesNewRoman(0)/m/it/12 hardware-backe
+d
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\TU/TimesNewRoman(0)/m/it/12 keystore\TU/TimesNewRoman(0)/m/n/12 , autentika-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\TU/TimesNewRoman(0)/m/n/12 si biometrik, dan \TU/TimesNewRoman(0)/m/it/12 app
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\TU/TimesNewRoman(0)/m/it/12 sandboxing \TU/TimesNewRoman(0)/m/n/12 yang lebih
+ []
+
+[17])) (Bab IV - Desain-Konsep-Solusi.tex
+
+[18]
 Bab IV.
 ) (Bab V - Rencana-Selanjutnya.tex
 
-[13
+[19
 
 ]
+
+[20]
 Bab V.
 
 
-[14
+[21
 
 ]
 
-[15])
+[22])
 
-[16]
+[23]
 Missing character: There is no マ in font Times New Roman/OT:script=latn;languag
 e=dflt;mapping=tex-text;!
 Missing character: There is no イ in font Times New Roman/OT:script=latn;languag
@@ -1421,7 +1795,7 @@ Overfull \hbox (5.48573pt too wide) in paragraph at lines 401--401
 
 
 
-[17
+[24
 
 
 ]
@@ -1431,29 +1805,32 @@ Overfull \hbox (2.87549pt too wide) in paragraph at lines 401--401
  []
 
 
+
+[25]
+
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 381.
 See the caption package documentation for explanation.
 
 
 
-[18] (ProposalTA.aux)
+[26] (ProposalTA.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
 Package rerunfilecheck Info: File `ProposalTA.out' has not changed.
-(rerunfilecheck)             Checksum: 6C145843493B248EB7D860F4D5E13930;5324.
+(rerunfilecheck)             Checksum: E6F6D7313BBDA0F71806AD8ACF323D46;5686.
 Package logreq Info: Writing requests to 'ProposalTA.run.xml'.
 \openout1 = `ProposalTA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31316 strings out of 403197
- 616848 string characters out of 5453038
- 1978921 words of memory out of 5000000
- 59489 multiletter control sequences out of 15000+600000
+ 31382 strings out of 403197
+ 618503 string characters out of 5453038
+ 1982059 words of memory out of 5000000
+ 59543 multiletter control sequences out of 15000+600000
  632918 words of font info for 83 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 73i,14n,93p,1484b,6316s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,14n,93p,1484b,6393s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ProposalTA.pdf (25 pages).
+Output written on ProposalTA.pdf (33 pages).
