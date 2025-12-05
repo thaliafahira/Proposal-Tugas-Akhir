@@ -5,34 +5,97 @@
 \label{chap:pendahuluan}
 % --- Latar Belakang ---
 \section{Latar Belakang}
-Latar Belakang menjelaskan dasar pemikiran, motivasi, kebutuhan, alasan, atau urgensi pemilihan masalah tugas akhir. Subbab ini berisi penjelasan ringkas tentang kondisi atau situasi yang ada saat ini terkait dengan topik yang dibahas. Tujuan utamanya adalah untuk memberikan informasi secukupnya kepada pembaca agar memahami topik yang akan dibahas. Dalam subbab ini, jelaskan hal-hal berikut ini:
-\begin{enumerate}
-\item	Kondisi atau situasi topik yang dibahas beserta permasalahannya, misalnya tentang pengelolaan informasi di puskesmas daerah pedesaan dan masalah yang dihadapi.
-\item	Berbagai solusi yang telah diterapkan atau solusi yang tersedia dan memungkinkan untuk diterapkan untuk menyelesaikan masalah tersebut.
-\end{enumerate}
+Ultra-Marathon merupakan salah satu cabang olahraga lari jarak jauh yang semakin populer dalam beberapa tahun terakhir \cite{Ronto2024}. Tren ini terlihat pada peningkatan jumlah peserta ITB Ultra-Marathon yang terus bertambah sejak pertama kali diselenggarakan pada tahun 2017 \cite{Hafizh2025}. Seiring dengan meningkatnya partisipasi, kebutuhan akan sistem pelacakan pelari menjadi semakin penting. Sistem pelacakan berperan dalam menjaga keselamatan peserta, memonitor performa, serta meningkatkan pengalaman pengguna melalui penyajian informasi yang interaktif \cite{Hochreiter2024}.
+
+Dalam konteks ITB Ultra-Marathon, sistem pelacakan dibutuhkan untuk memantau posisi pelari secara individu maupun kelompok. Melalui sistem ini, panitia dan tim support dapat mengetahui lokasi pelari secara \textit{real-time}, termasuk informasi seperti jarak tempuh, waktu, serta elevasi lintasan. Data tersebut sangat penting untuk mendukung proses penjemputan dan pengantaran peserta di titik-titik tertentu sepanjang rute marathon. Selain meningkatkan koordinasi, keberadaan sistem pelacakan juga berkontribusi pada keamanan dan kenyamanan peserta selama perlombaan berlangsung.
+
+Sebagai solusi dari kebutuhan tersebut, diusulkan pengembangan aplikasi pelacak khusus untuk kegiatan ITB Ultra-Marathon. Aplikasi ini difokuskan pada penyajian visualisasi data posisi pelari yang informatif, intuitif, dan mudah diakses oleh panitia, tim support, maupun peserta. Bagian \textit{front end} memiliki peran penting sebagai antarmuka utama pengguna, sehingga rancangan antarmuka harus mampu menyampaikan informasi secara jelas dan efektif \cite{Caselli2018}.
+
+Pengembangan antarmuka pada tugas akhir ini menggunakan pendekatan \textit{user centered design} (UCD), yaitu metode perancangan yang menempatkan kebutuhan dan karakteristik pengguna sebagai dasar dari seluruh proses desain \cite{abras2004user}. Dengan menerapkan pendekatan ini, aplikasi yang dikembangkan diharapkan dapat memenuhi kebutuhan panitia, tim support, dan peserta ITB Ultra-Marathon.
 
 % --- Rumusan Masalah ---
 \section{Rumusan Masalah}
-Rumusan Masalah berisi masalah utama yang dibahas dalam tugas akhir. Rumusan masalah yang baik memiliki struktur sebagai berikut:
+Saat ini belum tersedia aplikasi yang secara khusus digunakan untuk melakukan pelacakan peserta pada kegiatan ITB Ultra-Marathon. Ketiadaan sistem pelacakan ini menyebabkan pengalaman peserta dan tim support menjadi kurang optimal, karena posisi pelari tidak dapat dipantau secara \textit{real-time} sehingga menghambat proses koordinasi selama marathon. Dari sisi pengembangan sistem, dibutuhkan perancangan antarmuka yang sesuai dengan kebutuhan pengguna agar aplikasi dapat berfungsi secara efektif serta memberikan pengalaman penggunaan yang baik.
+
+Berdasarkan kondisi tersebut, rumusan masalah dalam tugas akhir ini adalah sebagai berikut:
+
 \begin{enumerate}
-\item	Pokok persoalan dari kondisi atau situasi yang ada saat ini. Dengan kata lain, jelaskan kelemahan atau kekurangan dari kondisi, situasi, atau solusi yang dijelaskan pada latar belakang. Ini merupakan pokok rumusan masalah.
-\item	Elaborasi lebih lanjut urgensi penyelesaian masalah tersebut (mengapa penting untuk diselesaikan dan akibat yang dapat terjadi jika tidak diselesaikan).
-\item	Usulan singkat terkait dengan solusi yang ditawarkan untuk menyelesaikan persoalan.
-Penting untuk diperhatikan bahwa persoalan yang dideskripsikan pada subbab ini akan dipertanggungjawabkan di bab Evaluasi (apakah terselesaikan atau tidak).
+    \item Bagaimana merancang dan mengembangkan \textit{front end} aplikasi \textit{tracker} ITB Ultra-Marathon dengan menggunakan pendekatan \textit{user centered design}?
+    \item Bagaimana front end aplikasi yang dikembangkan dapat memenuhi kebutuhan fungsional dan teknis dari sisi \textit{back end}?
 \end{enumerate}
+
+Aplikasi yang dirancang diharapkan mampu menjadi solusi yang memfasilitasi proses pelacakan peserta secara efisien dan \textit{real-time}, sehingga dapat membantu panitia dan tim support dalam memantau serta mengoordinasikan peserta selama penyelenggaraan ITB Ultra-Marathon.
+
 
 % --- Tujuan ---
 \section{Tujuan}
-Tuliskan tujuan utama dan/atau tujuan detail yang akan dicapai dalam pelaksanaan tugas akhir. Fokuskan pada hasil akhir yang ingin diperoleh setelah tugas akhir diselesaikan, terkait dengan penyelesaian persoalan pada rumusan masalah. Penting untuk diperhatikan bahwa tujuan yang dideskripsikan pada subbab ini akan dipertanggungjawabkan di akhir pelaksanaan tugas akhir apakah tercapai atau tidak. Tuliskan kriteria keberhasilan tugas akhir ini.
+Tugas akhir ini bertujuan untuk mengembangkan \textit{front end} aplikasi \textit{tracker} ITB Ultra-Marathon dengan menerapkan pendekatan \textit{user-centered design}. Melalui pendekatan tersebut, pengembangan diarahkan untuk menghasilkan antarmuka yang intuitif, informatif, serta mampu memenuhi kebutuhan panitia, tim, dan peserta dalam proses pelacakan peserta secara \textit{real-time} selama kegiatan berlangsung.
+
+Untuk memastikan bahwa tujuan pengembangan \textit{front end} aplikasi \textit{tracker} ITB Ultra-Marathon dapat tercapai secara optimal, diperlukan sejumlah indikator yang dapat digunakan untuk menilai keberhasilan hasil pengembangan. Adapun kriteria keberhasilan yang digunakan dalam tugas akhir ini adalah sebagai berikut.
+
+\begin{enumerate}
+    \item {Kesesuaian dengan kebutuhan pengguna} \\
+    Antarmuka yang dikembangkan mampu memenuhi kebutuhan informasi dan alur penggunaan bagi panitia, tim \textit{support}, dan peserta sesuai hasil analisis kebutuhan.
+
+    \item {Kemudahan penggunaan (\textit{usability})} \\
+    Pengguna dapat memahami alur navigasi dan membaca informasi pelacakan dengan mudah berdasarkan hasil pengujian \textit{usability}.
+
+    \item {Visualisasi data pelacakan yang jelas dan \textit{real-time}} \\
+    Informasi seperti posisi peserta, jarak tempuh, dan waktu dapat ditampilkan dengan akurat, mudah dipahami, dan responsif.
+
+    \item {Responsivitas dan konsistensi tampilan} \\
+    Tampilan antarmuka berfungsi dengan baik pada berbagai perangkat, terutama desktop dan mobile, serta menjaga konsistensi desain sesuai prinsip \textit{UCD}.
+
+    \item {Integrasi \textit{front end} dan \textit{back end} yang efektif} \\
+    \textit{Front end} mampu menampilkan data dari API tanpa gangguan signifikan, sehingga proses pelacakan dapat dilakukan secara lancar.
+\end{enumerate}
 
 % --- Batasan Masalah ---
 \section{Batasan Masalah}
-Tuliskan batasan-batasan yang diambil dalam pelaksanaan tugas akhir. Batasan ini dapat dihindari (bersifat opsional, tidak perlu ada) jika topik atau judul tugas akhir dibuat cukup spesifik.
+Agar pembahasan lebih terarah dan fokus, penelitian ini dibatasi oleh beberapa ruang lingkup sebagai berikut:
+\begin{enumerate}
+    \item Tugas akhir ini dikerjakan secara berkelompok yang terdiri dari 2 orang mahasiswa, yaitu Dinda Thalia Fahira (NIM 18222055) dan Justin Lawrance (NIM 18222006). Adapun pembagian fokus dari kedua mahasiswa tersebut adalah Thalia fokus pada bagian \textit{front end} aplikasi dan Justin fokus pada bagian \textit{back end} aplikasi.
+    \item Pengembangan aplikasi \textit{tracker} ini dibatasi untuk kebutuhan kegiatan ITB Ultra-Marathon dan tidak mencakup implementasi di luar lingkungan ITB atau skala kegiatan ultra marathon lainnya.
+\end{enumerate}
+Batasan masalah ini ditetapkan untuk memastikan bahwa proses penelitian dan pengembangan berjalan sesuai ruang lingkup yang ditentukan, sehingga hasil yang diperoleh dapat dipertanggungjawabkan dengan baik.
 
 % --- Metodologi Pengerjaan TA ---
 \section{Metodologi}
-Tuliskan semua tahapan yang akan dilalui selama pelaksanaan tugas akhir. Tahapan ini spesifik untuk menyelesaikan persoalan tugas akhir. Khusus untuk penyusunan proposal ini, jelaskan secara detail:
+
+Metodologi yang digunakan adalah \textit{Software Development Life Cycle} (\textit{SDLC}) model iteratif. 
+\textit{SDLC} merupakan serangkaian tahapan sistematis untuk merancang, membangun, menguji, dan 
+memelihara perangkat lunak agar sesuai dengan kebutuhan pengguna \cite{pressman2014}. 
+Model iteratif dipilih karena memungkinkan revisi berkelanjutan berdasarkan hasil evaluasi tiap siklus 
+\cite{Okesola2020}.
+
+Tahapan model iteratif dalam pengembangan \textit{front end} aplikasi \textit{tracker} ITB Ultra-Marathon meliputi:
+
 \begin{enumerate}
-\item	Tahapan investigasi pengumpulan fakta di latar belakang untuk merumuskan masalah.
-\item	Langkah-langkah pencarian, pengelompokan, dan penapisan literatur atau sumber informasi untuk mengumpulkan informasi yang relevan tentang topik yang diangkat, termasuk teori (konsep atau teori apa saja yang perlu dicari), hal-hal yang telah dicapai oleh orang lain (cara mencari dan kata kuncinya), dan berbagai informasi pendukung, untuk mencari solusi terhadap masalah yang dibahas. Gunakan metodologi yang tepat dalam menggali informasi dan dokumentasikan prosesnya (termasuk rekaman wawancara atau survei) di dalam Lampiran, termasuk tautan ke video atau foto. Hasil penggalian informasi ini akan dijelaskan secara sistematis di Bab II Studi Literatur.
+    \item {Perencanaan dan Analisis Kebutuhan} \\
+    Tahap ini mencakup diskusi internal dan studi literatur mengenai sistem pelacakan, metode 
+    pengembangan perangkat lunak, serta prinsip desain antarmuka. Analisis kebutuhan dilakukan 
+    melalui identifikasi karakteristik pengguna, kebutuhan fungsional dan non-fungsional, serta 
+    ruang lingkup sistem.
+
+    \item {Perancangan Desain Antarmuka} \\
+    Pada tahap ini diterapkan pendekatan \textit{user-centered design}. Proses perancangan mencakup 
+    penyusunan struktur halaman, pemilihan elemen visual, dan perancangan alur interaksi agar 
+    antarmuka mudah dipahami dan digunakan.
+
+    \item {Implementasi} \\
+    Desain antarmuka diimplementasikan menjadi komponen fungsional menggunakan teknologi 
+    \textit{front end}. Antarmuka kemudian diintegrasikan dengan \textit{back end} melalui API agar 
+    data dapat ditampilkan secara \textit{real-time}.
+
+    \item {Pengujian} \\
+    Pengujian dilakukan untuk memastikan antarmuka berjalan dengan baik. Aspek yang diuji 
+    meliputi fungsionalitas, konsistensi tampilan, responsivitas, dan kemudahan penggunaan.
+
+    \item {Evaluasi} \\
+    Evaluasi dilakukan berdasarkan hasil pengujian dan umpan balik pengguna. Temuan pada tahap 
+    ini menjadi dasar untuk penyempurnaan pada iterasi berikutnya.
 \end{enumerate}
+
+Dengan menerapkan model iteratif dalam SDLC, proses pengembangan \textit{front end} aplikasi tracker 
+ITB Ultra-Marathon diharapkan berlangsung secara sistematis dan adaptif sehingga menghasilkan 
+antarmuka yang fungsional, konsisten, dan mudah digunakan.

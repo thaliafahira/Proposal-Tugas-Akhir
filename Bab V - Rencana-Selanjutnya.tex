@@ -3,9 +3,62 @@
 % ==========================================
 \chapter{RENCANA SELANJUTNYA}
 \label{chap:rencana-selanjutnya}
-Jelaskan secara detail langkah-langkah rencana selanjutnya, hal-hal yang diperlukan atau akan disiapkan, dan risiko dan mitigasinya, yang meliputi:
+Pada bab ini disajikan rancangan lanjutan yang mencakup persiapan teknis sebelum pengembangan, desain pengujian untuk memastikan kualitas sistem, serta analisis risiko yang berpotensi muncul selama proses implementasi beserta strategi mitigasinya. Bab ini berfungsi sebagai panduan pelaksanaan tahap pengembangan sehingga proses implementasi dapat berjalan terstruktur, terukur, dan sesuai dengan tujuan sistem.
+
+\section{Rencana Implementasi}
+
+Rencana implementasi front end aplikasi mobile \textit{tracker} ITB Ultra-Marathon mencakup persiapan lingkungan kerja, penyediaan alat, dan konfigurasi yang diperlukan sebelum memulai proses pengembangan kode.
+
+\subsection{Persiapan Lingkungan Pengembangan}
+
+Persiapan ini memastikan bahwa tim pengembang memiliki semua sumber daya teknis yang memadai untuk melakukan \textit{coding} dan \textit{testing}.
+
+\subsubsection{Alat dan Bahan yang Diperlukan}
+
+\textbf{Perangkat Keras:}
+\begin{itemize}
+    \item Laptop atau Personal Computer (PC) dengan spesifikasi memadai sebagai lingkungan pengembangan utama.
+\end{itemize}
+
+\textbf{Perangkat Lunak:}
+\begin{itemize}
+    \item {Code Editor}: Visual Studio Code.
+    \item {Framework/SDK}: Flutter SDK untuk pengembangan mobile \textit{cross-platform}.
+    \item {Version Control}: Git.
+    \item {Dependencies}: Instalasi seluruh pustaka dan \textit{package} yang dibutuhkan oleh framework dan proyek.
+\end{itemize}
+
+\subsubsection{Konfigurasi Lingkungan}
+
+\begin{itemize}
+    \item {Pengaturan Database}: Melakukan \textit{set up} koneksi dan integrasi awal dengan \textit{back end} (API) untuk memastikan pertukaran data siap digunakan.
+    \item {Emulasi Perangkat}: Konfigurasi emulator atau perangkat fisik (Android dan iOS) untuk memastikan tampilan dan fungsionalitas berjalan optimal di berbagai perangkat.
+\end{itemize}
+
+\section{Desain Pengujian dan Evaluasi}
+
+Pengujian dilakukan untuk memverifikasi bahwa sistem front end berfungsi sesuai dengan Kebutuhan Fungsional (FR) dan Kebutuhan Non-Fungsional (NF) yang telah ditetapkan.
+
+\subsection{Metode Pengujian}
+
+Tiga metode pengujian utama akan diterapkan secara sekuensial:
+
 \begin{enumerate}
-\item	Rencana implementasi, termasuk alat dan bahan yang diperlukan, lingkungan, konfigurasi, biaya, dan sebagainya.
-\item	Desain pengujian dan evaluasi, misalnya metode verifikasi dan validasi.
-\item	Analisis risiko dan mitigasi, misalnya tindakan selanjutnya jika ada yang tidak berjalan sesuai rencana.
+    \item {Unit Testing}: Menguji setiap fungsi atau komponen front end, seperti fungsi kalkulasi ETA dan parsing data GPS, untuk memastikan komponen berjalan sesuai spesifikasi teknis.
+    \item {Integration Testing}: Menguji integrasi antara front end dan \textit{back end} (API) guna memastikan data real-time dapat diambil, diproses, dan ditampilkan dengan benar.
+    \item {User Acceptance Testing (UAT)}: Mengevaluasi kemudahan penggunaan dari perspektif pengguna akhir untuk memvalidasi bahwa sistem memenuhi kebutuhan dan harapan pengguna di lapangan.
 \end{enumerate}
+
+\subsection{Kriteria Evaluasi}
+
+Pengujian dianggap berhasil apabila memenuhi kriteria berikut:
+
+\begin{itemize}
+    \item {Kinerja Sistem}: Sistem menampilkan data pelacakan secara akurat dan responsif di berbagai perangkat dalam kondisi jaringan 4G rata-rata.
+    \item {Kepuasan Pengguna}: Tingkat kepuasan pengguna yang diperoleh dari kuesioner pasca-UAT mencapai minimal 80\%, menunjukkan antarmuka mudah digunakan dan efektif untuk koordinasi.
+    \item {Fungsi Kritis}: Seluruh Kebutuhan Fungsional dapat diimplementasikan dengan baik.
+\end{itemize}
+
+\section{Analisis Risiko dan Mitigasi}
+
+Analisis ini mengidentifikasi potensi hambatan selama proses implementasi dan menentukan strategi mitigasi untuk meminimalkan dampak negatifnya. Berikut merupakan analisis risiko dan mitigasi untuk pengembangan ini.
