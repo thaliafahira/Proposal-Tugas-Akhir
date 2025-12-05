@@ -77,16 +77,16 @@
 \babel@toc {indonesian}{}\relax 
 \contentsline {chapter}{\numberline {IV}DESAIN KONSEP SOLUSI}{19}{chapter.4}%
 \contentsline {section}{\numberline {IV.1}Rancangan Umum Sistem}{19}{section.4.1}%
-\contentsline {section}{\numberline {IV.2}Pemodelan Fungsional Sistem}{20}{section.4.2}%
-\contentsline {chapter}{\numberline {V}RENCANA SELANJUTNYA}{21}{chapter.5}%
-\contentsline {section}{\numberline {V.1}Rencana Implementasi}{21}{section.5.1}%
-\contentsline {subsection}{\numberline {V.1.1}Persiapan Lingkungan Pengembangan}{21}{subsection.5.1.1}%
-\contentsline {subsubsection}{\numberline {V.1.1.1}Alat dan Bahan yang Diperlukan}{21}{subsubsection.5.1.1.1}%
-\contentsline {subsubsection}{\numberline {V.1.1.2}Konfigurasi Lingkungan}{22}{subsubsection.5.1.1.2}%
-\contentsline {section}{\numberline {V.2}Desain Pengujian dan Evaluasi}{22}{section.5.2}%
-\contentsline {subsection}{\numberline {V.2.1}Metode Pengujian}{22}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {V.2.2}Kriteria Evaluasi}{22}{subsection.5.2.2}%
-\contentsline {section}{\numberline {V.3}Analisis Risiko dan Mitigasi}{23}{section.5.3}%
+\contentsline {section}{\numberline {IV.2}Pemodelan Fungsional Sistem}{21}{section.4.2}%
+\contentsline {chapter}{\numberline {V}RENCANA SELANJUTNYA}{24}{chapter.5}%
+\contentsline {section}{\numberline {V.1}Rencana Implementasi}{24}{section.5.1}%
+\contentsline {subsection}{\numberline {V.1.1}Persiapan Lingkungan Pengembangan}{24}{subsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {V.1.1.1}Alat dan Bahan yang Diperlukan}{24}{subsubsection.5.1.1.1}%
+\contentsline {subsubsection}{\numberline {V.1.1.2}Konfigurasi Lingkungan}{25}{subsubsection.5.1.1.2}%
+\contentsline {section}{\numberline {V.2}Desain Pengujian dan Evaluasi}{25}{section.5.2}%
+\contentsline {subsection}{\numberline {V.2.1}Metode Pengujian}{25}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {V.2.2}Kriteria Evaluasi}{25}{subsection.5.2.2}%
+\contentsline {section}{\numberline {V.3}Analisis Risiko dan Mitigasi}{26}{section.5.3}%
 \babel@toc {english}{}\relax 
 \babel@toc {indonesian}{}\relax 
 \babel@toc {english}{}\relax 

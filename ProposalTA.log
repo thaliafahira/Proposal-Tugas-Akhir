@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.10.21)  5 DEC 2025 10:47
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.10.21)  5 DEC 2025 12:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1758,23 +1758,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
 [18]
 Bab IV.
-) (Bab V - Rencana-Selanjutnya.tex
+File: image/actdiagram.png Graphic file (type bmp)
+<image/actdiagram.png>
+
 
 [19
 
 ]
 
 [20]
+File: image/usecase.png Graphic file (type bmp)
+<image/usecase.png>
+
+
+[21] (table/usecase.tex
+Underfull \hbox (badness 1019) in paragraph at lines 32--32
+[]|\TU/TimesNewRoman(0)/m/n/12 Anggota tim menerima undangan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+[]|\TU/TimesNewRoman(0)/m/n/12 Invite Family/Suppor-
+ []
+
+
+Underfull \hbox (badness 2990) in paragraph at lines 35--35
+[]|\TU/TimesNewRoman(0)/m/n/12 Ketua tim mengundang keluarga
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 37--37
+[]|\TU/TimesNewRoman(0)/m/n/12 View Real-time Loca-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+[]|\TU/TimesNewRoman(0)/m/n/12 Monitor All Team
+ []
+
+
+Underfull \hbox (badness 6236) in paragraph at lines 61--61
+[]|\TU/TimesNewRoman(0)/m/n/12 View Event Informa-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
+[]|\TU/TimesNewRoman(0)/m/n/12 Pengguna mengakses informasi
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 65--65
+[]|\TU/TimesNewRoman(0)/m/n/12 Peserta melakukan check-in pada
+ []
+
+[22])) (Bab V - Rencana-Selanjutnya.tex
+
+[23]
 Bab V.
 
 
-[21
+[24
 
 ]
 
-[22])
+[25])
 
-[23]
+[26]
 Missing character: There is no マ in font Times New Roman/OT:script=latn;languag
 e=dflt;mapping=tex-text;!
 Missing character: There is no イ in font Times New Roman/OT:script=latn;languag
@@ -1795,7 +1844,7 @@ Overfull \hbox (5.48573pt too wide) in paragraph at lines 401--401
 
 
 
-[24
+[27
 
 
 ]
@@ -1806,14 +1855,14 @@ Overfull \hbox (2.87549pt too wide) in paragraph at lines 401--401
 
 
 
-[25]
+[28]
 
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 381.
 See the caption package documentation for explanation.
 
 
 
-[26] (ProposalTA.aux)
+[29] (ProposalTA.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -1825,12 +1874,12 @@ Package logreq Info: Writing requests to 'ProposalTA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31382 strings out of 403197
- 618503 string characters out of 5453038
- 1982059 words of memory out of 5000000
- 59543 multiletter control sequences out of 15000+600000
+ 31409 strings out of 403197
+ 619073 string characters out of 5453038
+ 1983277 words of memory out of 5000000
+ 59566 multiletter control sequences out of 15000+600000
  632918 words of font info for 83 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,14n,93p,1484b,6393s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ProposalTA.pdf (33 pages).
+Output written on ProposalTA.pdf (36 pages).

@@ -7,11 +7,34 @@ Setelah melalui tahap analisis masalah dan penentuan solusi pada bab sebelumnya,
 
 \section{Rancangan Umum Sistem}
 
-Rancangan umum sistem menggambarkan alur proses bisnis aplikasi tracker ITB Ultra-Marathon melalui \textit{activity diagram} yang menjelaskan interaksi antar aktor dan sistem. \textit{Activity diagram} ini memvisualisasikan bagaimana setiap \textit{stakeholder} berinteraksi dengan aplikasi, mulai dari proses pendaftaran hingga pelaksanaan \textit{tracking} selama event berlangsung.
+Rancangan umum sistem menggambarkan alur proses bisnis aplikasi tracker ITB Ultra-Marathon melalui \textit{activity diagram} yang menjelaskan interaksi antar aktor dan sistem. \textit{Activity diagram} ini memvisualisasikan bagaimana setiap pengguna berinteraksi dengan aplikasi, mulai dari proses pendaftaran hingga pelaksanaan \textit{tracking} selama event berlangsung.
 
+\begin{figure}[H]
+    \centering
+    \captionsetup{justification=centering}
+    \includegraphics[width=\textwidth]{image/actdiagram.png}
+    \caption{ \textit{Activity Diagram Tracker} ITB Ultra-Marathon}
+    \label{fig:actdiagram}
+\end{figure}
 
-Alur proses bisnis dimulai dari proses pendaftaran oleh Ketua Tim, yang kemudian ditindaklanjuti oleh Panitia dengan mengirimkan email konfirmasi berisi token pendaftaran. Selanjutnya, Ketua Tim dan Peserta membuat akun serta membentuk tim di dalam sistem, sementara Sistem secara otomatis menghasilkan token unik untuk tim tersebut. Ketua Tim kemudian mengundang Peserta untuk bergabung menggunakan token yang diberikan, hingga seluruh anggota resmi terdaftar dalam struktur tim yang valid. Setelah proses inisiasi selesai, sistem mulai menjalankan fungsi utamanya, yaitu melakukan pelacakan peserta secara \textit{real-time} selama berlangsungnya event.
+Alur proses bisnis dimulai dari proses pendaftaran oleh Ketua Tim. Panitia kemudian memverifikasi pendaftaran tersebut. Jika pendaftaran valid, Panitia mengirimkan email konfirmasi berisi token pendaftaran ke Ketua Tim, sementara Sistem secara otomatis menghasilkan token unik untuk proses tersebut.
+
+Ketua Tim kemudian membuat akun dan membentuk tim di dalam sistem menggunakan token pendaftaran yang diterima. Setelah tim terbentuk, Sistem menghasilkan token tim yang unik untuk keperluan undangan anggota. Ketua Tim menggunakan token tim tersebut untuk mengundang Peserta bergabung ke dalam tim. Peserta yang menerima undangan kemudian membuat akun menggunakan token tim yang dibagikan. Sistem memvalidasi token tim dan menambahkan Peserta ke dalam struktur tim.
+
+Proses undangan ini dapat berulang hingga seluruh anggota tim lengkap sesuai kategori yang dipilih (\textit{relay} 2, 4, 8, atau 16 orang). Setelah tim dinyatakan lengkap dan valid, sistem siap untuk melaksanakan marathon.
+
+Saat \textit{event} berlangsung, sistem mulai menjalankan fungsi utamanya, yaitu melakukan pelacakan posisi peserta secara \textit{real-time}. Data \textit{tracking} disajikan kepada semua pengguna (Panitia, Ketua Tim, Peserta, dan keluarga/\textit{supporter}) melalui antarmuka aplikasi, sehingga koordinasi dan pemantauan dapat dilakukan secara efektif selama marathon berlangsung.
 
 \section{Pemodelan Fungsional Sistem}
 
 Setelah memahami alur proses bisnis melalui \textit{activity diagram}, langkah selanjutnya adalah memodelkan fungsionalitas sistem secara lebih terstruktur menggunakan \textit{use case diagram} yang menggambarkan interaksi antara aktor dengan sistem.
+
+\begin{figure}[H]
+    \centering
+    \captionsetup{justification=centering}
+    \includegraphics[width=\textwidth]{image/usecase.png}
+    \caption{ \textit{Use Case Diagram Tracker} ITB Ultra-Marathon}
+    \label{fig:usecase}
+\end{figure}
+
+\input{table/usecase.tex}
