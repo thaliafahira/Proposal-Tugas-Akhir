@@ -1,18 +1,16 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'ProposalTA.blg'
-[152] biber-MSWIN64:342> INFO - === 
-[231] Biber.pm:421> INFO - Reading 'ProposalTA.bcf'
-[568] Biber.pm:1002> INFO - Found 18 citekeys in bib section 0
-[593] Biber.pm:4487> INFO - Processing section 0
-[609] Biber.pm:4678> INFO - Looking for bibtex file 'daftar-pustaka.bib' for section 0
-[665] bibtex.pm:1713> INFO - LaTeX decoding ...
-[690] bibtex.pm:1519> INFO - Found BibTeX data source 'daftar-pustaka.bib'
-[900] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[900] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'variable = shifted' with 'variable = non-ignorable'
-[900] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'level = 4' with 'level = 2'
-[900] Biber.pm:4307> INFO - Sorting list 'cms/global//global/global/global' of type 'entry' with template 'cms' and locale 'indonesian'
-[900] Biber.pm:4313> INFO - No sort tailoring available for locale 'indonesian'
-[931] bbl.pm:676> INFO - Writing 'ProposalTA.bbl' with encoding 'UTF-8'
-[943] bbl.pm:779> INFO - Output to ProposalTA.bbl
-[945] Biber.pm:132> WARN - I didn't find a database entry for 'iso2019' (section 0)
-[945] Biber.pm:134> INFO - WARNINGS: 1
+[271] biber-MSWIN64:342> INFO - === 
+[343] Biber.pm:421> INFO - Reading 'ProposalTA.bcf'
+[826] Biber.pm:1002> INFO - Found 18 citekeys in bib section 0
+[844] Biber.pm:4487> INFO - Processing section 0
+[858] Biber.pm:4678> INFO - Looking for bibtex file 'daftar-pustaka.bib' for section 0
+[914] bibtex.pm:1713> INFO - LaTeX decoding ...
+[941] bibtex.pm:1519> INFO - Found BibTeX data source 'daftar-pustaka.bib'
+[1122] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1122] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'level = 4' with 'level = 2'
+[1122] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1122] Biber.pm:4307> INFO - Sorting list 'cms/global//global/global/global' of type 'entry' with template 'cms' and locale 'indonesian'
+[1122] Biber.pm:4313> INFO - No sort tailoring available for locale 'indonesian'
+[1149] bbl.pm:676> INFO - Writing 'ProposalTA.bbl' with encoding 'UTF-8'
+[1163] bbl.pm:779> INFO - Output to ProposalTA.bbl

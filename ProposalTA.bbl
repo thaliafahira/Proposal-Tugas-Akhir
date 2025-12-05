@@ -378,6 +378,33 @@
       \field{pages}{25\bibrangedash 37}
       \range{pages}{13}
     \endentry
+    \entry{iso20199241}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=86cf981e617fa62d9780236ea2756256}{%
+           family={ISO},
+           familyi={I\bibinitperiod},
+           given={ISO},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{86cf981e617fa62d9780236ea2756256}
+      \strng{fullhash}{86cf981e617fa62d9780236ea2756256}
+      \strng{fullhashraw}{86cf981e617fa62d9780236ea2756256}
+      \strng{bibnamehash}{86cf981e617fa62d9780236ea2756256}
+      \strng{authorbibnamehash}{86cf981e617fa62d9780236ea2756256}
+      \strng{authornamehash}{86cf981e617fa62d9780236ea2756256}
+      \strng{authorfullhash}{86cf981e617fa62d9780236ea2756256}
+      \strng{authorfullhashraw}{86cf981e617fa62d9780236ea2756256}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Geneva, Switzerland: International Organization for Standardization}
+      \field{title}{9241-210: 2019 Ergonomics of Human-System Interaction—Part 210: Human-Centred Design for Interactive Systems}
+      \field{year}{2019}
+    \endentry
     \entry{kaplan2017understanding}{book}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=a73f4569585416e1fec51104e67647ac}{%
@@ -738,7 +765,6 @@
       \range{pages}{10}
     \endentry
   \enddatalist
-  \missing{iso2019}
 \endrefsection
 \endinput
 
